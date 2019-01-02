@@ -1,0 +1,26 @@
+{
+  "name": "mystique-cli",
+  "version": "0.1.0",
+  "description": "A CLI for Mystique.",
+  "main": "index.js",
+  "bin": {
+    "mystique": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aunyks/mystique-cli.git"
+  },
+  "author": "Gerald Nash",
+  "license": "LGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/aunyks/mystique-cli/issues"
+  },
+  "homepage": "https://github.com/aunyks/mystique-cli#readme",
+  "dependencies": {
+    "mystique-lib": "^0.1.0",
+    "yargs": "^12.0.5"
+  }
+}
